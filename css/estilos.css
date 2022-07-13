@@ -1,0 +1,266 @@
+@font-face {
+  font-family: 'newyorkregular';
+  src: url('/fonts/fontsfree-net-newyork-webfont.woff2') format('woff2'),
+    url('/fonts/newyork_personal_use-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+@font-face {
+  font-family: 'poppinslight';
+  src: url('/fonts/fontsfree-net-newyork-webfont.woff2') format('woff2'),
+    url('/fonts/fontsfree-net-newyork-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'poppinsmedium';
+  src: url('/fonts/poppins-medium-webfont.woff2') format('woff2'),
+    url('/fonts/poppins-medium-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+img {
+  opacity: 0.8;
+  transition: all 1s;
+}
+
+img:hover {
+  opacity: 1;
+}
+
+#zoomA {
+  width: 100%; 
+  height: auto;
+  transition: ease-out 0.3s;
+}
+
+#zoomA:hover {
+  transform: scale(1.2);
+  
+}
+
+
+#zoomB {
+  width: 100%; 
+  height: auto;
+  transition: ease-out 0.3s;
+}
+
+#zoomB:hover {
+  transform: scale(1.2);
+  
+}
+
+
+
+.navbar-toggler-icon {
+  display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+  vertical-align: middle;
+  content: "";
+  background: 50%/100% 100% no-repeat;
+}
+
+.black-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,0,0, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.black-toggler.navbar-toggler {
+  border-color: #de9d5d;
+}
+
+.nav-link {
+  color: black !important;
+}
+
+.active {
+  background-color: rgb(249, 240, 233) !important;
+  color: black !important;
+}
+
+
+h2 {
+  font-family: 'newyorkregular';
+  font-weight: 500;
+  font-size: 3rem;
+  justify-content: center;
+}
+
+
+p {
+  font-size: 1.2rem;
+  padding-top: 1rem;
+  padding-bottom: 3rem;
+  padding-right: 10%;
+}
+
+p .active {
+  text-decoration: none;
+  text-decoration-line: none;
+  font-style: italic;
+}
+
+/* index */
+
+h1 {
+  font-family: 'newyorkregular';
+  font-size: 5rem;
+  padding-top: 3%;
+  padding-left: 5%;
+  justify-content: left;
+}
+
+
+#texto-hola {
+  padding-top: 1%;
+  padding-left: 5%;
+}
+
+.texto-hola {
+  padding-left: 5%;
+}
+
+h3 {
+  font-family: 'newyorkregular';
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5%;
+}
+
+.a-crear {
+  font-size: 2.5rem;
+  font-style: italic;
+  font-weight: 500;
+}
+
+
+/* quien-soy */
+
+#quien-soy {
+  background-color: rgb(249, 240, 233);
+
+}
+
+#soy-disenadora {
+  background-color: #F9F0EA;
+}
+
+.soy-disenadora {
+  padding-bottom: 2%;
+}
+
+
+#mi-experiencia {
+  background-color: #F9F0EA;
+}
+
+#texto-hola {
+  font-size: 11vw;
+
+
+}
+
+/* servicios */
+
+.parrafo-rrss {
+  justify-content: center;
+  padding-left: 10%;
+}
+
+
+/* proyectos */
+
+
+.galeria {
+  display: flex;
+  flex-direction: row;
+}
+
+.card {
+  margin: 5vw;
+  padding: 0.5rem;
+  /* rem es la medida relativa con respecto al tamaño de la tipografia raiz */
+  border-radius: 5px;
+}
+
+.card .imagenresponsive {
+  width: 100%;
+  height: auto;
+}
+
+
+.bg-beige {
+  background-color: rgb(249, 240, 233);
+}
+
+h5 {
+  justify-content: center;
+}
+
+.proyecto {
+  justify-content: center !important;
+  padding-top: 0%;
+  padding-bottom: 0%;
+  padding-right: 0%;
+}
+
+/* contacto */
+
+div figure blockquote p {
+  padding-top: 20px;
+}
+
+.frase-diseno {
+  justify-content: center;
+  padding-top: 2%;
+  padding-bottom: 0%;
+  padding-right: 0%;
+}
+
+.py-5 {
+  padding-top: 0.5rem !important;
+  padding-bottom: 0.5rem !important;
+}
+
+.blockquote-footer {
+  justify-content: center;
+  padding-bottom: 2%;
+}
+
+.form-check-input:checked {
+  background-color: #de9d5d;
+  border-color: #de9d5d;
+}
+
+.btn-primary {
+  color: black;
+  background-color: #e7dad2;
+  border-color: #e7dad2;
+}
+
+.btn:hover {
+  color: #fff;
+  background-color: #de9d5d;
+  border-color: #de9d5d;
+}
+
+
+/* footer */
+
+.footer {
+  font-family: 'poppinslight';
+}
+
+h6 {
+  font-family: 'newyorkregular';
+  font-weight: bolder;
+  letter-spacing: 0.1rem;
+}
